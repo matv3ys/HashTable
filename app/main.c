@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "./src/hash_table.h"
+#include "../Include/hash_table.h"
 
 int main(int argc, char *argv[]) {
     ht_hash_table* ht = ht_new();

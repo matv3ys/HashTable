@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "hash_table.h"
+#include "../Include/hash_table.h"
 
 #define HT_PRIME_1 5381
 #define HT_PRIME_2 13   /* should be smaller than table size */
