@@ -1,0 +1,7 @@
+1. strdup duplicates string, this function is not part of the ANSI/ISO standards, although
+   it is supported by almost all compilers
+2. static function can be defined as one that has its scope limited to the file in
+   which it is declared (visible only in the same translation unit)
+3. xmalloc() terminates program after failed malloc
+4. add_executable(...)
+   target_link_libraries(HashTable m) #libm
